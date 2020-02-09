@@ -97,6 +97,21 @@ gdalwarp -r near -tps -co COMPRESS=PACKBITS  -t_srs "+proj=lcc +lat_0=45.90 +lon
 
 ![](./img_04.png)
 
+## Utilizzando le coordinate geografiche
+
+Nei 4 vertici di queste mappe sono indicate le coordinate geografiche, rispetto a Monte Mario. Facendo quindi riferimento sempre all'ellissoide di Bessel e ai parametri di trasformazione relativi (descritti sopra), si possono aggiungere alla mappa i 4 punti di controllo degli angoli in coordinate geografiche e definire la stringa `proj` in questo modo: `+proj=longlat +ellps=bessel +towgs84=656.5,138.2,506.5,5.187,-2.540,5.256,-12.61 +units=m +pm=rome +no_defs`.
+
+A seguire un esempio di comandi con cui realizzare quanto descritto.
+
+```bash
+# scarica la mappa
+curl -L "http://legacy.lib.utexas.edu/maps/ams/italy_50k/txu-pclmaps-oclc-6540719-milano-45-iii.jpg" >./output.jpg
+# aggiungi i punti di controllo
+gdal_translate -of GTiff -gcp 418.832 2486.39 -3.5 45.3333 -gcp 2689.8 2501.38 -3.25 45.3333 -gcp 2686.8 349.879 -3.25 45.5 -gcp 425.704 337.633 -3.5 45.5 ./output.jpg ./output_mm.tif
+# riproietta la mappa
+gdalwarp -r near -order 1 -co COMPRESS=PACKBITS  -t_srs "+proj=longlat +ellps=bessel +towgs84=656.5,138.2,506.5,5.187,-2.540,5.256,-12.61 +units=m +pm=rome +no_defs" ./output_mm.tif ./output_mm_warped.tif
+```
+
 ---
 
 ## Riferimenti
