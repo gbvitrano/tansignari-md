@@ -53,9 +53,9 @@ anchor = "smart"
 
 [languages]
 [languages.it]
-title = "Goldydocs"
-description = "A Docsy example site"
-languageName ="English"
+title = "Tansignari"
+description = "Inserire una descrizione"
+languageName ="Italiano"
 # Weight used for sorting.
 weight = 1
 #[languages.no]
@@ -75,7 +75,7 @@ weight = 1
 
 [params]
 copyright = "OpenDataSicilia"
-privacy_policy = "http://opendatasicilia.it/"
+#privacy_policy = "http://opendatasicilia.it/"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -99,7 +99,7 @@ version = "0.1"
 url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/aborruso/tansignari-md"
+github_repo = "https://github.com/opendatasicilia/tansignari-md"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 github_project_repo = "https://github.com/google/docsy"
 
