@@ -1,4 +1,10 @@
-# uMap - Tematizzare i punti
+---
+title: "uMap - Tematizzare i punti"
+linkTitle: "uMap - Tematizzare i punti"
+date: 2019-08-12
+description: >
+  A short lead descripton about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
+---
 
 * autore: [gbvitrano](https://twitter.com/gbvitrano)
 * issue:
@@ -7,7 +13,7 @@ Abbiamo già visto come tematizzare [velocemente i poligoni](http://tansignari.o
 
 Prendendo spunto dalla domanda posta da [Piersoft](https://twitter.com/Piersoft) su [facebook](https://www.facebook.com/piersoft/posts/10214546139942792)
 
-![](/img/uMap/piersoft_facebook.png)
+![](./Umap/piersoft_facebook.png)
 
 ho fatto un qualche prova veloce, utilizzando sempre il famoso campo  **_umap_options**
 
@@ -38,14 +44,14 @@ Creiamo un nuovo layer temporaneo, aggiungiamo il campo **_umap_options** e il c
 
 NB: il mio campo **{id}** deve essere sostituito dal campo con i valori da mostrare del vostro db
 
-![](/img/uMap/qgis_test.png)
+![](./Umap/qgis_test.png)
 
 Esportiamo il [geojson](https://it.wikipedia.org/wiki/GeoJSON) da [QGIS](https://www.qgis.org/it/site/) e lo importiamo in [Umap](http://umap.openstreetmap.fr/it/) come si vede dall'immagine il valore del campo **{id}** è esposto nel marker 
 
-![](/img/uMap/test_umap_punti.png)
+![](./Umap/test_umap_punti.png)
 
 in dettaglio 
 
-![](/img/uMap/umap_punti_dettaglio2.jpg)
+![](./Umap/umap_punti_dettaglio2.jpg)
 
 **N.B.: Questo metodo funziona solo con file geojson, non funziona con file csv o google sheet**

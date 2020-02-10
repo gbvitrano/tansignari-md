@@ -1,7 +1,7 @@
 ---
 title: "Elenco di servizi online che permettono di ottenere coordinate geografiche partendo da indirizzi"
 linkTitle: "Elenco di servizi online che permettono di ottenere coordinate geografiche partendo da indirizzi"
-date: 2017-01-05
+date: 2019-03-15
 description: >
   A short lead descripton about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---

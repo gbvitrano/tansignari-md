@@ -1,7 +1,7 @@
 ---
 title: "QGIS e i grigliati NTv2 per l'Italia"
 linkTitle: "QGIS e i grigliati NTv2 per l'Italia"
-date: 2017-01-05
+date: 2020-02-10
 description: >
   A short lead descripton about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---

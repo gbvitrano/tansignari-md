@@ -1,7 +1,7 @@
 ---
 title: "Reverse Geocoding con Two-way Geocoding"
 linkTitle: "Reverse Geocoding con Two-way Geocoding"
-date: 2017-01-05
+date: 2019-41-14
 description: >
   A short lead descripton about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---

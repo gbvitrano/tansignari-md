@@ -1,7 +1,7 @@
 ---
 title: "Come creare un Sistema di Riferimento personalizzato: un esempio con mappe storiche"
 linkTitle: "Come creare un Sistema di Riferimento personalizzato: un esempio con mappe storiche"
-date: 2019-01-05
+date: 2020-02-07
 description: >
   A short lead descripton about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---
